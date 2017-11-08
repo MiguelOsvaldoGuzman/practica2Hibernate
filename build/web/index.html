@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.js"/></script>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" style="background: white;height: 2cm;"></div>
+            <div class="col-md-2" style="background: white;height: 2cm;">
+                <h2>Formulario</h2>
+            </div>
+            <div class="col-md-5" style="background: white;height: 2cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+            <div class="col-md-6" style="background: white;height: 2cm;">               
+                <input type="text" class="form-control"  id="nombre" placeholder="Usuario" >
+            </div>
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+            <div class="col-md-6" style="background: white;height: 2cm;">               
+                <input type="text" class="form-control" id="paterno" placeholder="Apellido Paterno " >
+            </div>
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+            <div class="col-md-6" style="background: white;height: 2cm;">               
+                <input type="text" class="form-control" id="materno" placeholder="Apellidos Materno " >
+            </div>
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+            <div class="col-md-3" style="background: white;height: 2cm;">               
+                <input type="text" class="form-control" id="telefono" placeholder="Telefono ">
+            </div>
+            <div class="col-md-3" style="background: white;height: 2cm;">               
+                <select class="custom-select" style="width: 253px" id="tipopersona">
+                    <option selected>Tipo persona</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="col-md-3" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" style="background: white;height: 1cm;"></div>
+            <div class="col-md-2" style="background: white;height: 2cm;">               
+                <button class="load" onclick="sendDataToBack()" style='width:150px; height:40px;border-radius:10px'>Enviar</button>
+            </div>
+            <div class="col-md-5" style="background: white;height: 1cm;"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" style="background: white;height: 1cm;"></div>
+            <div class="col-md-2" style="background: white;height: 2cm;">
+                <div class="col-md-1" style="background: white;height: 1cm;"></div>
+                <div  class="col-md-1" id="loading" style="display: none">
+                    <img src="img/loading.gif" style="width: 70px; height: 70px;">
+                </div>
+                <div class="col-md-1" style="background: white;height: 1cm;"></div>
+            </div>
+            <div class="col-md-5" style="background: white;height: 1cm;"></div>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
